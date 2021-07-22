@@ -1,0 +1,17 @@
+[package]
+name = "encoder_encoding"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log-derive = "0.*"
+env_logger = "0.*"
+log = "0.*"
+rust_baltech_sdk_bindings = { path = "../rust_baltech_sdk_bindings" }
+anyhow = "*"
+serde_json = "*"
+lazy_static = "1.*"
+encoder_lib = { git = "https://github.com/aetelani/encoder_lib.git" }
+
